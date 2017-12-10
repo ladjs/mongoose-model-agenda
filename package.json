@@ -60,13 +60,6 @@
     "*.md": ["remark . -qfo", "git add"]
   },
   "main": "index.js",
-  "nyc": {
-    "check-coverage": true,
-    "lines": 100,
-    "functions": 100,
-    "branches": 100,
-    "reporter": ["lcov", "html", "text"]
-  },
   "remarkConfig": {
     "plugins": ["preset-github"]
   },
